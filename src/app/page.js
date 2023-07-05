@@ -6,13 +6,13 @@ import React, {useState} from 'react'
 export default function Page() {
 
   const opened = {
-    width: 'w-full rounded-lg',
+    width: 'h-full w-full rounded-lg',
     text: 'text-black font-bold absolute bottom-0 left-0 text-4xl mb-4 ml-4 transition-all duration-200 whitespace-nowrap w-fit h-fit bg-white bg-opacity-25 rounded-full',
     closed: false
   }
 
   const closed = {
-    width: 'w-full h-12 md:h-full md:w-[80px] rounded-3xl',
+    width: 'w-full h-20 md:h-full md:w-[80px] rounded-3xl',
     text: 'text-transparent ',
     closed: true
   }
