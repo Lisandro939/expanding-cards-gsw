@@ -8,7 +8,7 @@ export default function Section({position, style, src, alt, setSelectedPosition,
   return (
     <div 
     onClick={() => setSelectedPosition(position)} 
-    className={'h-full relative cursor-pointer transition-all duration-1000 ' + style.width}>
+    className={'relative cursor-pointer transition-all duration-1000 ' + style.width}>
       {
         closed ? 
           <div className='transition-all duration-1000 text-3xl absolute flex items-center justify-center w-full h-full z-10 backdrop-blur-sm rounded-3xl	'>
